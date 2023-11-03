@@ -159,7 +159,7 @@ abstract class Enum extends \Consistence\ObjectPrototype
 	}
 
 
-	public function getValue(): string|int
+	public function getValue(): string|int|float
 	{
 		return $this->value;
 	}
