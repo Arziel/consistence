@@ -158,10 +158,8 @@ abstract class Enum extends \Consistence\ObjectPrototype
 		}
 	}
 
-	/**
-	 * @return mixed
-	 */
-	public function getValue()
+
+	public function getValue(): string|int
 	{
 		return $this->value;
 	}
